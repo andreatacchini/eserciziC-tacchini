@@ -1,5 +1,6 @@
 //Fai generare al programma
-// un numero casuale tra 1 e 50. L’utente deve indovinarlo, e il programma dice “troppo alto” o “troppo basso” finché non indovina 
+// un numero casuale tra 1 e 50. L’utente deve indovinarlo, 
+//e il programma dice “troppo alto” o “troppo basso” finché non indovina 
 #include <iostream> 
 #include <string> 
  #include <cstdlib>
