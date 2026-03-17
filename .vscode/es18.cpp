@@ -6,19 +6,21 @@
 #include <cmath>
 using namespace std;
 int main(){
-int a ;
-double radice;
+int a;
+string cond = "si";
 
-int i=0;
-cout << "Inserisci il numero: ";
-cin >> a;
+while (cond == "si") {
+    cout << "Inserisci il numero: ";
+    cin >> a;
 
-    if(a>0){
-      sqrt(a);
-        cout << "Radice quadrata = "<< sqrt(a) << endl; 
-    }
-    else{
+    if (a > 0) {
+        cout << "Radice quadrata = " << sqrt(a) << endl;
+    } else {
         cout << "Numero non valido" << endl;
     }
+
+    cout << "vuoi continuare? (si/no): ";
+    cin >> cond;
+}
     return 0;
 }
